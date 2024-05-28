@@ -18,19 +18,40 @@ body{
     font-weight: 400;
 }
 #netflix{
+    height: 6em;
     width: 20em;
     display: flex;
-    justify-content: space-between
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: -2px 0px 14px 3px rgba(119,119,119,0.66); 
+    box-shadow: -2px 0px 14px 3px rgba(119,119,119,0.66);
+border-radius: 10px;
 }
 #net{
     display: block;
-    height: 50px;
+   
 }
 #fotoja{
     height: 40px;
     width: 40px;
+    border-radius: 100%;
 }
 
-
+#billi{
+    display: flex;
+    justify-content: space-evenly;
+}
+#button{
+   color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    width:50px
+}
+#proces{
+    color: #FFBB0B;
+    border: 1px solid #FFBB0B;
+    border-radius: 4px;
+    width:100px
+}
 
 
