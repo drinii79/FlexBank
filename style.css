@@ -19,7 +19,7 @@ body{
 }
 #netflix{
     height: 6em;
-    width: 20em;
+    width: 25em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,17 +41,44 @@ border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
 }
-#button{
+#button{ 
+    font-weight: 400;
    color: blue;
     border: 1px solid blue;
     border-radius: 4px;
-    width:50px
+    width:55px
 }
 #proces{
+    font-weight: 400;
     color: #FFBB0B;
     border: 1px solid #FFBB0B;
     border-radius: 4px;
-    width:100px
+    width:95px
+    
 }
-
+#balance{
+    width: 488px;
+    height: 154px;
+    background-color: #0B69FF;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+#primary{
+    display: flex;
+}
+#bashk{
+    display: flex;
+    align-items: center;
+    margin-bottom: -49px;
+    margin-left: -30px;
+}
+#bashk2{
+    display: flex;
+    align-items: center;
+    margin-bottom: -49px;
+    margin-left: -30px;
+}
 
